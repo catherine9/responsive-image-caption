@@ -54,6 +54,11 @@ body {
 
   body {
     background-color: #e2e2e2;
+    margin: 0;
+  }
+
+  p {
+    font-size: 1rem;
   }
 
 }
