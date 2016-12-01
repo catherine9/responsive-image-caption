@@ -19,7 +19,7 @@ html {
 
 p {
   font-family: Gerogia, serif;
-  font-size: .7rem;
+  font-size: 1.5rem;
 }
 
 main {
@@ -33,6 +33,10 @@ main {
   position: relative;
   width: 100%;
   display: block;
+}
+
+.figcaption {
+  padding: 1em;
 }
 
 h2 {
@@ -72,14 +76,14 @@ body {
 
   .figcaption {
     position: absolute;
-    bottom: 0;
-    right: -3rem;
+    bottom: 1em;
+    right: 1em;
     color: #fff;
-    transform: translateX(-30%);
     border-radius: 5px;
     background-color: rgba(0, 0, 0, .3);
     padding: .5rem;
     margin: .2em;
+    width: 50%;
   }
 
 }
