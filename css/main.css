@@ -29,18 +29,6 @@ main {
   width: 100%;
 }
 
-.caption {
-  position: absolute;
-  bottom: 0;
-  right: -3rem;
-  color: #fff;
-  transform: translateX(-30%);
-  border-radius: 5px;
-  background-color: rgba(0, 0, 0, .3);
-  padding: .5rem;
-  margin: .2em;
-}
-
 .img-flex {
   position: relative;
   width: 100%;
@@ -77,16 +65,7 @@ body {
     line-height: 1.4;
   }
 
-}
-
-@media only screen and (min-width: 60em) {
-
-  html {
-    font-size: 120%;
-    line-height: 1.5;
-  }
-
-  .caption {
+  .figcaption {
     position: absolute;
     bottom: 0;
     right: -3rem;
@@ -95,7 +74,16 @@ body {
     border-radius: 5px;
     background-color: rgba(0, 0, 0, .3);
     padding: .5rem;
-    margin: .3em;
+    margin: .2em;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
   }
 
   p {
