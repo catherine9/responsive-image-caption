@@ -23,33 +23,29 @@ p {
   margin: 0;
 }
 
-main {
-  margin-bottom: 0;
-  display: block;
-  position: relative;
-  width: 100%;
-}
-
 .img-flex {
   width: 100%;
   display: block;
 }
 
-.figcaption {
+figcaption {
   padding: 1em;
 }
 
 h2 {
   font-family: "Denk One", sans-serif;
   font-size: 1.5rem;
-  margin-bottom: .4em;
-  margin-top: .4em;
+  margin-bottom: .5rem;
+  margin-top: 1rem;
 }
 
 body {
+  margin: 0;
+}
+
+figure {
   background-color: #e2e2e2;
   margin: 0;
-  max-height: 45em;
 }
 
 @media only screen and (min-width: 38em) {
@@ -59,7 +55,7 @@ body {
     line-height: 1.4;
   }
 
-  .figcaption {
+  figcaption {
     position: absolute;
     bottom: 1em;
     right: 1em;
@@ -67,6 +63,10 @@ body {
     border-radius: 4px;
     background-color: rgba(0, 0, 0, .3);
     width: 49%;
+  }
+
+  figure {
+    position: relative;
   }
 
 }
